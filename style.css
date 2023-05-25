@@ -1,0 +1,43 @@
+
+    /* Element Selector */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* ID Selector */
+    #work-experience {
+      margin-bottom: 20px;
+    }
+
+    /* Class Selector */
+    .section-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    /* Group Selector */
+    h2 {
+      text-align: left;
+    }
+
+    /* Universal Selector */
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    /* Descendant Selector */
+    #work-experience li,
+    #education li {
+      margin-bottom: 5px;
+    }
+
+    /* Child Selector */
+    ul > li {
+      color: #555555;
+    }
+    nav{
+      background-color:darkgreen;
+      text-align: center;
+    }
